@@ -1,0 +1,31 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "description": "Sample Node Express App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/bin/www",
+    "test": "jest"
+  },
+  "keywords": [
+    "node.js",
+    "express.js"
+  ],
+  "author": "Chaitanya",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "expectacle": "^2.3.0",
+    "express": "~4.15.5",
+    "express-jwt": "^6.0.0",
+    "jest": "^26.6.3",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "nocache": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^5.0.5",
+    "supertest": "^3.0.0",
+    "eslint": "^4.19.1"
+  }
+}
